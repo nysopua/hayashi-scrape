@@ -20,5 +20,5 @@ python_version = "3.7"
 
 [scripts]
 start = "python index.py"
-analytics = "python google_analytics1.py"
+analytics = "python scrape_analytics.py"
 test = "test.py"
