@@ -11,4 +11,4 @@ def getFollowersAndFollowees():
   followers = soup.select('span.ProfileNav-value')[1].text
   followees = soup.select('span.ProfileNav-value')[2].text
 
-  return f'【現在のフォロワー数】{followers}人 \n【現在のフォロー数】{followees}人'
+  return f'【Twitterの現在のフォロワー数】{followers}人 \n【Twitterの現在のフォロー数】{followees}人'
